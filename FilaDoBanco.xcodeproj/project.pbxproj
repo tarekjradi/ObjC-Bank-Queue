@@ -18,6 +18,9 @@
 		CC77F701178B08300031DB83 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC77F700178B08300031DB83 /* Default-568h@2x.png */; };
 		CC77F704178B08300031DB83 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC77F702178B08300031DB83 /* MainStoryboard.storyboard */; };
 		CC77F707178B08300031DB83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC77F706178B08300031DB83 /* ViewController.m */; };
+		CC77F710178B0E2E0031DB83 /* Caixas.m in Sources */ = {isa = PBXBuildFile; fileRef = CC77F70F178B0E2E0031DB83 /* Caixas.m */; };
+		CC77F713178B0E3E0031DB83 /* Clientes.m in Sources */ = {isa = PBXBuildFile; fileRef = CC77F712178B0E3E0031DB83 /* Clientes.m */; };
+		CCF3C6C5178B34370070C0DC /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF3C6C4178B34370070C0DC /* Timer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,12 @@
 		CC77F703178B08300031DB83 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CC77F705178B08300031DB83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CC77F706178B08300031DB83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC77F70E178B0E2E0031DB83 /* Caixas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caixas.h; sourceTree = "<group>"; };
+		CC77F70F178B0E2E0031DB83 /* Caixas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Caixas.m; sourceTree = "<group>"; };
+		CC77F711178B0E3E0031DB83 /* Clientes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clientes.h; sourceTree = "<group>"; };
+		CC77F712178B0E3E0031DB83 /* Clientes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clientes.m; sourceTree = "<group>"; };
+		CCF3C6C3178B34370070C0DC /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		CCF3C6C4178B34370070C0DC /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +92,12 @@
 		CC77F6F0178B08300031DB83 /* FilaDoBanco */ = {
 			isa = PBXGroup;
 			children = (
+				CC77F70D178B0E0A0031DB83 /* Objetos */,
 				CC77F6F9178B08300031DB83 /* AppDelegate.h */,
 				CC77F6FA178B08300031DB83 /* AppDelegate.m */,
-				CC77F702178B08300031DB83 /* MainStoryboard.storyboard */,
 				CC77F705178B08300031DB83 /* ViewController.h */,
 				CC77F706178B08300031DB83 /* ViewController.m */,
+				CC77F702178B08300031DB83 /* MainStoryboard.storyboard */,
 				CC77F6F1178B08300031DB83 /* Supporting Files */,
 			);
 			path = FilaDoBanco;
@@ -105,6 +115,19 @@
 				CC77F700178B08300031DB83 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC77F70D178B0E0A0031DB83 /* Objetos */ = {
+			isa = PBXGroup;
+			children = (
+				CC77F70E178B0E2E0031DB83 /* Caixas.h */,
+				CC77F70F178B0E2E0031DB83 /* Caixas.m */,
+				CC77F711178B0E3E0031DB83 /* Clientes.h */,
+				CC77F712178B0E3E0031DB83 /* Clientes.m */,
+				CCF3C6C3178B34370070C0DC /* Timer.h */,
+				CCF3C6C4178B34370070C0DC /* Timer.m */,
+			);
+			name = Objetos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +199,9 @@
 				CC77F6F7178B08300031DB83 /* main.m in Sources */,
 				CC77F6FB178B08300031DB83 /* AppDelegate.m in Sources */,
 				CC77F707178B08300031DB83 /* ViewController.m in Sources */,
+				CC77F710178B0E2E0031DB83 /* Caixas.m in Sources */,
+				CC77F713178B0E3E0031DB83 /* Clientes.m in Sources */,
+				CCF3C6C5178B34370070C0DC /* Timer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +324,7 @@
 				CC77F70C178B08300031DB83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
