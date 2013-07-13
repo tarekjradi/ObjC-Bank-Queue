@@ -12,6 +12,5 @@
 @interface Clientes : NSObject
 
 @property (nonatomic, strong) Timer *tempoAtendimento; //(D)
-@property (nonatomic) int entradaNaFila;
 
 @end
