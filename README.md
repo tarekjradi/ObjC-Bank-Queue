@@ -1,9 +1,9 @@
-FilaDoBanco
+ObjC-Bank-Queue
 ===========
 
 Documentação das classes no wiki.
 
-Banco
+Bank
 =====
 
 Fonte
@@ -11,25 +11,27 @@ Fonte
 
 [OBI - Nivel 2 - Banco](http://olimpiada.ic.unicamp.br/pratique/programacao/nivel2/2012f2p2_banco)
 
-A legislação em vigor obriga os bancos a iniciarem o atendimento a um cliente em no máximo 20 minutos após a entrada do cliente na fila única da agência bancária. A fila é única, assim um caixa livre solicita ao primeiro cliente da fila que venha ao seu guichê para ser atendido. (Vamos ignorar aqui o problema dos clientes prioritários, idosos, gestantes, portadores de necessidades especiais, etc.) Estamos supondo também que nenhum caixa atende dois clientes ao mesmo tempo.
+ACADEMIC WORK
 
-Seu programa receberá o número de caixas ativas na agência, o número de clientes e, para cada cliente, duas informações, a saber, o momento de entrada do cliente na fila, e a duração do atendimento daquele cliente.
+Current legislation requires banks to begin serving a customer within 20 minutes of the customer entering the bank branch's single queue. The queue is single, so a free teller asks the first customer in the queue to come to his/her counter to be served. (We will ignore the problem of priority customers, elderly people, pregnant women, people with special needs, etc.) We are also assuming that no teller serves two customers at the same time.
 
-Inicialmente todos os caixas estão vazios, já que a agência acabou de abrir.
+Your program will receive the number of active tellers in the branch, the number of customers and, for each customer, two pieces of information, namely, the time the customer entered the queue and the duration of that customer's service.
 
-Seu problema é determinar o número de clientes que esperarão mais de 20 minutos para ter seu atendimento iniciado.
+Initially, all the tellers are empty, since the branch has just opened.
 
-### Entrada
+Your problem is to determine the number of customers who will wait more than 20 minutes to have their service started.
 
-A primeira linha da entrada contém dois inteiros separados por um espaço em branco. O primeiro, C, é o número de caixas ativas na agência bancária. O segundo, N, o número de clientes que procurarão atendimento na agência naquele dia.
+Input
 
-As próximas N linhas terão cada uma informações sobre um cliente, consistindo de dois inteiros, T e D, separados por um espaço em branco. O inteiro T fornece o momento em que o cliente entra na fila, em minutos, a partir do instante de abertura da agência. O inteiro D fornece, em minutos, o tempo necessário para atender o cliente.
+The first line of the input contains two integers separated by a blank space. The first, C, is the number of active tellers in the bank branch. The second, N, is the number of customers who will seek service at the agency that day.
 
-As linhas estão ordenadas por entrada dos clientes na fila.
+The next N lines will each contain information about a customer, consisting of two integers, T and D, separated by a blank space. The integer T gives the time at which the customer enters the queue, in minutes, from the moment the agency opens. The integer D gives, in minutes, the time required to serve the customer.
 
-### Saída
+The lines are ordered by customer entry into the queue.
 
-A saída deverá conter apenas uma linha, contendo um único inteiro, o número de clientes cujo atendimento será iniciado mais do que 20 minutos após sua entrada na fila.
+Output
+
+The output should contain only one line, containing a single integer, the number of customers whose service will begin more than 20 minutes after they enter the queue.
 
 ### Restrições
 
